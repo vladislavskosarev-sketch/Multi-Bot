@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/badge/Платформа-Windows%2010%20%2F%2011-blue?style=for-the-badge&logo=windows)](https://github.com/vladislavskosarev-sketch/Multi-Bot)
 [![Target](https://img.shields.io/badge/Поддержка-Majestic%20RP%20%7C%20Россия%20Онлайн-success?style=for-the-badge)](https://github.com/vladislavskosarev-sketch/Multi-Bot)
 [![Stealth](https://img.shields.io/badge/Защита-Zero--Footprint-purple?style=for-the-badge)](https://github.com/vladislavskosarev-sketch/Multi-Bot)
-[![Release](https://img.shields.io/badge/Версия-v2.1.0-orange?style=for-the-badge)](https://github.com/vladislavskosarev-sketch/Multi-Bot)
+[![Release](https://img.shields.io/badge/Версия-v2.2.8-orange?style=for-the-badge)](https://github.com/vladislavskosarev-sketch/Multi-Bot/releases/latest)
 
 <p align="center">
   <b>Комплексная автоматизация игровых активностей на базе компьютерного зрения (OpenCV), анализа звука (WASAPI) и кинематического прицеливания.</b>
@@ -28,32 +28,39 @@
 
 ### ⛏️ Карьер и Шахта
 - Автоматический сбор руды и кристаллов с высокой частотой кадров.
-- Распознавание заполненности тачки и авто-разгрузка.
+- Распознавание жил, авто-нажатие `[E]` и скоростной сбор кристаллов.
 
 ### 🪓 Лесоруб
-- Распознавание спила, рубки бревен и ветвей.
+- Распознавание спила, рубки бревен и ветвей через Branch CV.
 - Автоматическое позиционирование и работа по таймингам.
 
-### 🔨 Стройка
-- Автоматическое выполнение мини-игр забивания досок и шлифовки.
+### 🧱 Стройка и Лифт
+- **Лифт**: точный клик `[Пробел]` при попадании стрелки в зелёную зону.
+- Автоматическое выполнение мини-игр забивания досок и шлифовки на станке (WASD).
 
-### 🍎 Фермер
-- Интеллектуальный сбор урожая и яблок.
+### 🍊 Фермер (Сбор Апельсинов)
+- Интеллектуальный поиск и автоматический сбор спелых апельсинов в садах.
+- Автоматический полив и сбор урожая на полях.
 
 ### 🛡️ Безопасность и Anti-Cheat Protection
-- **Zero-Footprint (Одноразовый запуск)**: бот работает в изолированной временной сессии `%TEMP%` и **полностью уничтожает все файлы при закрытии**.
+- **Zero-Token Launcher**: чистый бинарный лаунчер без вшитых токенов и секретов.
 - **Human Input**: случайные микропаузы, естественные задержки нажатий и перемещение курсора мыши по кубическим кривым Безье.
-- **Интеллектуальный HUD**: компактный поверхностный статус, не перекрывающий игровой интерфейс.
+- **Интеллектуальный Always-on-Top HUD**: компактный поверхностный статус с радаром рыбалки.
 
 ---
 
 ## 🚀 Быстрый запуск в 1 клик
 
-1. Скачайте файл [`MultiBot_Launcher.bat`](MultiBot_Launcher.bat).
-2. Запустите `MultiBot_Launcher.bat` от имени Администратора.
-3. Лоадер автоматически подключится к защищенному серверу, развернет изолированную сессию и запустит панель управления Multi-Bot.
+<p align="center">
+  <a href="https://github.com/vladislavskosarev-sketch/Multi-Bot/releases/latest/download/MultiBot_Launcher.exe">
+    <img src="https://img.shields.io/badge/СКАЧАТЬ%20ЛАУНЧЕР-MultiBot__Launcher.exe-brightgreen?style=for-the-badge&logo=windows&logoColor=white" height="40" alt="Скачать MultiBot_Launcher.exe">
+  </a>
+</p>
+
+1. Скачайте файл лоадера: [**`MultiBot_Launcher.exe`**](https://github.com/vladislavskosarev-sketch/Multi-Bot/releases/latest/download/MultiBot_Launcher.exe) (или прямо из этого репозитория: [`MultiBot_Launcher.exe`](MultiBot_Launcher.exe)).
+2. Запустите **`MultiBot_Launcher.exe`**.
+3. Лоадер автоматически проверит обновления, загрузит актуальные компоненты и запустит графический интерфейс Multi-Bot Suite.
 4. Выберите нужную профессию, настройте параметры и нажмите **СТАРТ**.
-5. **После закрытия программы все файлы автоматически и бесследно удалятся с вашего ПК.**
 
 ---
 
